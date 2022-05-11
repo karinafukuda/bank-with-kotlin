@@ -12,6 +12,23 @@ fun main(args: Array<String>) {
         )
         println()
 
+
+
+    }
+    for ( j in 8 downTo 1 step 2){
+        if ( j == 2){
+            break
+        }
+        if ( j == 4){
+            continue
+        }
+        println(j)
+    }
+    var k = 0
+
+    while ( k < 3){
+        println(k)
+        k++
     }
 
     //testaCondicoes(saldo)
